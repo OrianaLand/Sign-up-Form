@@ -102,9 +102,8 @@ img{
     box-shadow: 0 2.5px 5px #c0bdbd;
 }
 
-.input-group>#password:focus{
+.input-group>#password:invalid{
     outline: none;
-    /* remove default border so custom border aplies */
     border: 1.5px solid red;
 }
 .form-footer{
