@@ -90,6 +90,17 @@ img{
     width: 250px;
     padding: .3em;
 }
+
+.form-footer{
+    font-weight: bold;
+}
+
+.form-footer>a {
+    padding-left: .25em;
+    text-decoration: none;
+    color: #596D48;
+}
+
 @media only screen and (min-width: 750px) {
 body {
     flex-direction: row;
