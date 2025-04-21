@@ -32,17 +32,18 @@ img{
 
 
 .input-container{
-    border: 1px solid grey;
+    background-color: #fff;
+    box-shadow: 0 2.5px 5px #c0bdbd;
 }
 
 .content{
     padding: 1.5em 0;
+    background-color: #f8f9fa;
 }
 
 .header-container{
     margin: 2em 0;
 }
-
 
 .header-container,
 .input-container,
@@ -84,13 +85,28 @@ img{
     font-size: .75em;
     font-weight: bold;
     letter-spacing: 1.25px;
+    color: #2D3744;
 }
 
 .input-group>input{
     width: 250px;
     padding: .3em;
+    border: 1px solid #E5E7EB;
+    background-color: #FFFEFE;
+    border-radius: 3px;
 }
 
+.input-group>input:focus {
+    outline: none; /* remove default border so custom border aplies */
+    border: 1.5px solid #1D4ED8;
+    box-shadow: 0 2.5px 5px #c0bdbd;
+}
+
+.input-group>#password:focus{
+    outline: none;
+    /* remove default border so custom border aplies */
+    border: 1.5px solid red;
+}
 .form-footer{
     font-weight: bold;
 }
