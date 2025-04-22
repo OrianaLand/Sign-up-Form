@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --standard-shadow: 0 2.5px 5px #c0bdbd;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -44,7 +48,7 @@ img{
 
 .input-container{
     background-color: #fff;
-    box-shadow: 0 2.5px 5px #c0bdbd;
+    box-shadow: var(--standard-shadow);
 }
 
 .content{
@@ -78,7 +82,7 @@ img{
     border: none;
     background-color: #596D48;
     color: #fff;
-    box-shadow: 0 2.5px 5px #c0bdbd;
+    box-shadow: var(--standard-shadow);
 }
 
 .button:hover{
@@ -110,7 +114,7 @@ img{
 .input-group>input:focus {
     outline: none; /* remove default border so custom border aplies */
     border: 1.5px solid #1D4ED8;
-    box-shadow: 0 2.5px 5px #c0bdbd;
+    box-shadow: var(--standard-shadow);
 }
 
 .input-group>#password:invalid{
