@@ -111,7 +111,8 @@ img{
 }
 
 .input-group>input{
-    width: 250px;
+    max-width: 250px;
+    min-width: 180px;
     padding: .3em;
     border: 1px solid #E5E7EB;
     background-color: #FFFEFE;
