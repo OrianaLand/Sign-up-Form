@@ -111,6 +111,7 @@ img{
 }
 
 .input-group>input{
+    width: 100%;
     max-width: 250px;
     min-width: 180px;
     padding: .3em;
